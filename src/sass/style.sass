@@ -7,4 +7,85 @@ $base-white: #F9F8F3
 $base-black: #2F2F2F
 $accent: #07C3B4
 $grey: #EFEFEF
+$dark-blue: #00243C
+
+.header
+    background: $dark-blue
+
+.main-screen
+    padding-top: 139px
+    &__logo
+        width: 190px
+        height: 70px
+        background: $base-white
+        margin-bottom: 75px
+
+.menu__item
+    padding-right: 63px
+    color: $base-white
+    font-size: 24px
+    transition: all 0.3s ease
+    font-weight: 700
+    text-transform: uppercase
+    &:nth-child(4)
+        padding-right: 0
+    &:hover
+        text-decoration: none
+        color: grey
+
+.offer
+    padding-top: 132px
+    margin-bottom: 140px
+    &__title
+        font-size: 94px
+        text-transform: uppercase
+        color: $base-white
+        margin-bottom: 73px
+        font-weight: 700
+        text-align: center
+    &__text
+        color: $base-white
+        text-align: center
+        font-size: 24px
+        margin-bottom: 140px
+        &:before
+            content: ''
+            display: block
+            background: $base-white
+            width: 174px
+            height: 1px
+            position: absolute
+            margin-top: 12px
+            margin-left: 220px
+        &:after
+            content: ''
+            display: block
+            background: $base-white
+            width: 174px
+            height: 1px
+            position: absolute
+            margin-top: -12px
+            margin-left: 715px
+    &__btn
+        width: 400px
+        height: 80px
+        color: $base-white
+        background: $accent
+        border-radius: 70px
+        text-transform: uppercase
+        font-weight: 700
+        display: block
+        text-align: center
+        padding-top: 27px
+        font-size: 25px
+        margin: 0 auto
+        margin-bottom: 205px
+
+
+
+
+
+
+
+
 
